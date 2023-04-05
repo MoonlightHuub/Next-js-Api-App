@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    background-color: #2b214d;
+    color: #c4b6f2;
+    padding: 15px;
+    width: 50em;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .5);
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.title{
+    color: #ea429a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name{
+    font-size: 1.5em;
+    font-family: monospace;
+}
+
+.img{
+    border-radius: 50%;
+}
